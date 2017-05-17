@@ -27,6 +27,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
+    <!-- DaoVoice -->
+    <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/9a221fcc.js","daovoice")</script>
 </head>
 
 <body id="page-top" class="index">
@@ -475,6 +477,13 @@
     <!-- Theme JavaScript -->
     <script src="js/agency.js"></script>
 
+    <!-- DaoVoice -->
+    <script>
+      daovoice('init', {
+        app_id: "9a221fcc"
+      });
+      daovoice('update');
+    </script>
 </body>
 
 </html>
