@@ -53,7 +53,7 @@ h6 {
   background-color: #eeeeee;
 }
 .bg-darkest-gray {
-  background-color: #337ab7;
+  background-color: #000000;
 }
 .btn-primary {
   color: white;
@@ -147,7 +147,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #337ab7;
+  background-color: #3c3f41;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #337ab7;
+    background-color: #3c3f41;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('http://optz203i0.bkt.clouddn.com/img/header-bg.jpg');
+  background-image: url('../img/photos/berry-van-der-velden-32818.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -554,7 +554,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #337ab7;
+  background-color: #3c3f41;
   background-image: url('http://optz203i0.bkt.clouddn.com/img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -630,7 +630,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #337ab7;
+  background-color: #3c3f41;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -704,7 +704,7 @@ ul.social-buttons li a:active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #337ab7;
+  background-color: #3c3f41;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -715,7 +715,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #337ab7;
+  background-color: #3c3f41;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
